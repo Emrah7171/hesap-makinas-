@@ -1,0 +1,37 @@
+import java.util.Scanner;
+
+public class PROJE1 {
+    public static void main(String[] args) {
+
+       int n1,n2,secim;
+       Scanner ınput=new Scanner(System.in);
+
+       System.out.print("İLK SAYI:");
+       n1=ınput.nextInt();
+       System.out.print("İKİNCİ SAYI");
+       n2=ınput.nextInt();
+       System.out.println("1Toplama:\n2ÇIKARMA\n3BÖLME\n4ÇARPMA");
+       System.out.println("SECİM:");
+     secim=ınput.nextInt();
+    switch (secim){
+        case 1:
+            System.out.println("TUTAR"+(n1+n2));
+            break;
+        case 2:
+            System.out.println("TUTAR"+(n1-n2));
+            break;
+        case 3:
+            System.out.println("TUTAR"+(n1/n2));
+            break;
+        case 4:
+            System.out.println("TUTAR"+(n1*n2));
+            break;
+        default:
+            System.out.println("HATALI GİRİŞ");
+    }
+
+
+
+
+    }
+}
